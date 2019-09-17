@@ -1,0 +1,72 @@
+.pricingPlan {
+  min-width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  height: 1200px;
+  padding: 0;
+  margin: 0 auto;
+  list-style: none;
+  background-color: #dbdbdb;
+  padding-left: 90px;
+  padding-right: 90px;
+}
+
+.item {
+  max-width: 450px;
+  height: 700px;
+  margin-top: 250px;
+  margin-right: 30px;
+  background-color: #fff;
+}
+
+.divIcon {
+  display: flex;
+  align-items: flex-end;
+  width: 216px;
+  height: 162px;
+  margin: 0 auto 30px;
+  margin-top: 88px;
+}
+
+.label {
+  text-align: center;
+  font-size: 35px;
+  color: #dd7c4b;
+}
+
+.capacity {
+  font-size: 17px;
+  color: #c8c8c8;
+  text-align: center;
+}
+
+.description {
+  font-size: 15px;
+  color: #c8c8c8;
+  text-align: center;
+}
+
+.price {
+  color: #7f8c8d;
+  font-size: 40px;
+  text-align: center;
+}
+
+.icon {
+  height: 250px;
+  display: block;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: bottom;
+}
+
+.button {
+  font-size: 15px;
+  color: #fff;
+  width: 200px;
+  height: 50px;
+  background-color: #dd7c4b;
+  margin-left: 90px;
+  border: none;
+  cursor: pointer;
+}
